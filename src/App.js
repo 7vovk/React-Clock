@@ -42,10 +42,6 @@ class App extends Component {
             this.setState({hours: new Date().getHours()});
         }
     }
-
-    componentWillUnmount() {
-
-    }
 }
 
 export default App;
